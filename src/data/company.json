@@ -1,0 +1,23 @@
+{
+  "name": "Cero0Plagas",
+  "tagline": "Control de Plagas",
+  "slogan": "Tu Hogar, Libre de Amenazas",
+  "description": "Somos especialistas en control y eliminación de plagas con más de 15 años de experiencia. Usamos tecnología de vanguardia y productos certificados para garantizar la seguridad de tu familia y negocio.",
+  "phone": "+52 999 123 4567",
+  "whatsapp": "529991234567",
+  "email": "contacto@bioshield.mx",
+  "address": "Calle 60 Norte #456, Col. Américas, Mérida, Yucatán",
+  "schedule": "Lun–Sáb: 7:00 AM – 7:00 PM",
+  "stats": [
+    { "value": "15+", "label": "Años de Experiencia" },
+    { "value": "5,000+", "label": "Clientes Atendidos" },
+    { "value": "98%", "label": "Clientes Satisfechos" },
+    { "value": "24h", "label": "Respuesta de Emergencia" }
+  ],
+  "certifications": ["COFEPRIS Certificado", "Norma NOM-256", "Personal Capacitado", "Productos Seguros"],
+  "socialMedia": {
+    "facebook": "https://facebook.com/bioshield",
+    "instagram": "https://instagram.com/bioshield",
+    "whatsapp": "https://wa.me/529991234567"
+  }
+}

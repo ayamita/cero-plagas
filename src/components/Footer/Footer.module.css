@@ -1,0 +1,130 @@
+.footer {
+  background: var(--c-bg2);
+  border-top: 1px solid var(--c-border);
+  padding: 3rem 0 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.brand {}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.logoIcon {
+  width: 34px; height: 34px;
+  background: linear-gradient(135deg, var(--c-primary), var(--c-accent));
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.logoAccent { color: var(--c-accent); }
+
+.brandDesc {
+  font-size: 0.825rem;
+  color: var(--c-text-muted);
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+.socials {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social {
+  width: 34px; height: 34px;
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  transition: border-color var(--t-fast), background var(--t-fast);
+}
+
+.social:hover {
+  border-color: var(--c-primary);
+  background: rgba(92,191,92,0.1);
+}
+
+.col {}
+
+.colTitle {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--c-text-faint);
+  margin-bottom: 1rem;
+}
+
+.colLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.colLink {
+  font-size: 0.85rem;
+  color: var(--c-text-muted);
+  transition: color var(--t-fast);
+}
+
+.colLink:hover { color: var(--c-primary); }
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--c-border);
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  font-size: 0.78rem;
+  color: var(--c-text-faint);
+}
+
+.bottomLinks {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.bottomLink {
+  font-size: 0.78rem;
+  color: var(--c-text-faint);
+  transition: color var(--t-fast);
+}
+
+.bottomLink:hover { color: var(--c-text-muted); }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .brand { grid-column: span 2; }
+}
+
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .brand { grid-column: span 2; }
+  .bottom { flex-direction: column; align-items: flex-start; }
+}

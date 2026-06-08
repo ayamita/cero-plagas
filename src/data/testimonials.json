@@ -1,0 +1,50 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "María González",
+      "role": "Dueña de restaurante",
+      "text": "Excelente servicio, resolvieron nuestra infestación de cucarachas en tiempo récord. El equipo fue muy profesional y discreto. ¡100% recomendados!",
+      "rating": 5,
+      "location": "Mérida, Yucatán"
+    },
+    {
+      "id": 2,
+      "name": "Carlos Mendoza",
+      "role": "Administrador de edificio",
+      "text": "Llevamos 2 años con su servicio mensual y los resultados son impresionantes. Sin plagas, sin quejas de inquilinos. Muy profesionales.",
+      "rating": 5,
+      "location": "Progreso, Yucatán"
+    },
+    {
+      "id": 3,
+      "name": "Laura Torres",
+      "role": "Ama de casa",
+      "text": "Tenía una infestación de ratas que me tenía desesperada. En una sola visita resolvieron el problema y me explicaron cómo prevenirlo. Muy satisfecha.",
+      "rating": 5,
+      "location": "Mérida, Yucatán"
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "¿Cuánto tiempo debo esperar para entrar después de una fumigación?",
+      "answer": "El tiempo varía según el servicio: fumigación convencional 2–3 horas, termonebulización 4–6 horas. Siempre te indicaremos el tiempo exacto antes de iniciar."
+    },
+    {
+      "id": 2,
+      "question": "¿Los productos son seguros para niños y mascotas?",
+      "answer": "Sí. Utilizamos productos registrados ante COFEPRIS con baja toxicidad para mamíferos. Una vez seco el producto, el área es completamente segura."
+    },
+    {
+      "id": 3,
+      "question": "¿Ofrecen garantía en sus servicios?",
+      "answer": "Todos nuestros servicios tienen garantía de 30 días. Si el problema persiste, regresamos sin costo adicional hasta resolver la situación."
+    },
+    {
+      "id": 4,
+      "question": "¿Atienden emergencias?",
+      "answer": "Sí, contamos con servicio de emergencia 24/7. Contáctanos por WhatsApp y coordinaremos una visita lo antes posible, incluso el mismo día."
+    }
+  ]
+}

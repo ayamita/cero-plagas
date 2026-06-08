@@ -1,0 +1,68 @@
+[
+  {
+    "id": "fumigacion",
+    "icon": "🧪",
+    "title": "Fumigación",
+    "shortDesc": "Eliminación efectiva de insectos rastreros y voladores",
+    "description": "Aplicación de insecticidas residuales en áreas estratégicas para eliminar cucarachas, hormigas, moscas, mosquitos y demás insectos. Usamos productos de baja toxicidad registrados ante COFEPRIS.",
+    "benefits": ["Efecto residual de 3–6 meses", "Productos certificados y seguros", "Sin olores persistentes", "Apto para uso en hogares y negocios"],
+    "targets": ["Cucarachas", "Hormigas", "Moscas", "Mosquitos", "Chinches"],
+    "duration": "1–3 horas",
+    "color": "#2E7D32"
+  },
+  {
+    "id": "termonebulizacion",
+    "icon": "🌫️",
+    "title": "Termonebulización",
+    "shortDesc": "Niebla caliente que penetra hasta los rincones más difíciles",
+    "description": "Técnica que convierte el insecticida en partículas microscópicas mediante calor, creando una niebla densa que penetra en grietas, hendiduras y áreas de difícil acceso donde las plagas se esconden.",
+    "benefits": ["Alcance en espacios cerrados", "Alta efectividad en infestaciones graves", "Acción rápida", "Ideal para bodegas y almacenes"],
+    "targets": ["Mosquitos", "Jejenes", "Moscas", "Plagas voladoras", "Pulgas"],
+    "duration": "2–4 horas",
+    "color": "#1565C0"
+  },
+  {
+    "id": "nebulizacion",
+    "icon": "💨",
+    "title": "Nebulización en Frío",
+    "shortDesc": "Microgotitas que flotan en el aire para máxima cobertura",
+    "description": "Sistema de nebulización en frío ULV (Ultra Low Volume) que dispersa el insecticida en partículas ultrafinas, ideal para espacios abiertos o con ventilación, hoteles, restaurantes y áreas verdes.",
+    "benefits": ["Cobertura de grandes áreas", "Mínimo tiempo de espera", "Ideal para exteriores", "Excelente para control de mosquitos"],
+    "targets": ["Mosquitos", "Jejenes", "Moscas blancas", "Trips", "Áfidos"],
+    "duration": "1–2 horas",
+    "color": "#00838F"
+  },
+  {
+    "id": "desratizacion",
+    "icon": "🐀",
+    "title": "Desratización",
+    "shortDesc": "Control integral de roedores sin riesgos para tu familia",
+    "description": "Programa completo de control de ratas y ratones que incluye inspección, instalación de cebaderos, trampas y sellado de accesos. Prevenimos y eliminamos infestaciones con métodos seguros.",
+    "benefits": ["Eliminación garantizada", "Sellado de accesos", "Sin riesgos para mascotas", "Monitoreo continuo"],
+    "targets": ["Rata noruega", "Rata de techo", "Ratón doméstico", "Topillos"],
+    "duration": "2–5 horas",
+    "color": "#4527A0"
+  },
+  {
+    "id": "desinfeccion",
+    "icon": "🦠",
+    "title": "Desinfección",
+    "shortDesc": "Eliminación de virus, bacterias y hongos en superficies",
+    "description": "Servicio de sanitización y desinfección profunda con productos de grado hospitalario. Ideal para hogares, oficinas, restaurantes, escuelas y cualquier espacio que requiera higiene garantizada.",
+    "benefits": ["Elimina 99.9% de gérmenes", "Productos biodegradables", "Apto para alimentos", "Certificado sanitario incluido"],
+    "targets": ["Bacterias", "Virus", "Hongos", "Ácaros", "Alérgenos"],
+    "duration": "1–3 horas",
+    "color": "#00695C"
+  },
+  {
+    "id": "garrapatas",
+    "icon": "🕷️",
+    "title": "Control de Garrapatas",
+    "shortDesc": "Protección para tu familia y mascotas contra garrapatas",
+    "description": "Tratamiento especializado para eliminar garrapatas en jardines, patios y áreas verdes. Usamos acaricidas específicos que atacan garrapatas en todas sus etapas del ciclo de vida.",
+    "benefits": ["Tratamiento en todas las fases", "Seguro para mascotas post-secado", "Previene enfermedades", "Cobertura de jardín completo"],
+    "targets": ["Garrapata café del perro", "Garrapata americana", "Garrapata de los ciervos", "Ácaros"],
+    "duration": "1–2 horas",
+    "color": "#BF360C"
+  }
+]
